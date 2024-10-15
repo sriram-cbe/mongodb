@@ -6,6 +6,10 @@
     "start": "node ./bin/www",
     "build": "node ./bin/www"
   },
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "config": "^3.3.12",
     "cookie-parser": "^1.0.0",
